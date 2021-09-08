@@ -7,7 +7,7 @@ const websocketStream = require("websocket-stream/stream");
 const Twilio = require("twilio");
 const { DialogflowService } = require("./dialogflow-utils");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 const app = express();
 // extend express app with app.ws()

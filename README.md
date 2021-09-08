@@ -47,7 +47,7 @@ npm start
 Wire up your Twilio number with your endpoint on incoming calls. This will automatically start an [ngrok](https://ngrok.com) tunnel to your machine.
 
 ```bash
-twilio phone-numbers:update +15552223333 --voice-url=http://localhost:3000/twiml
+twilio phone-numbers:update +15552223333 --voice-url=http://localhost:4000/twiml
 ```
 
 ### Deploy to AppEngine
